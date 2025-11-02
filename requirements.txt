@@ -19,4 +19,4 @@ huggingface-hub==0.25.2
 # FAISS – use a supported build
 faiss-cpu==1.9.0.post1
 
-umap
+UMAP
