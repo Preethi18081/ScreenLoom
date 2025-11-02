@@ -1,43 +1,30 @@
-# Core web app
-streamlit
-python-dotenv
-
-# Data and computation
-pandas
-numpy
-scikit-learn
-scipy
-tqdm
-requests
-
-# Visualization
-matplotlib
-plotly
-wordcloud
-
-# File handling and formats
-openpyxl        # for Excel support
-xlrd            # for old .xls files
-pyarrow         # optional but speeds up Streamlit dataframes
-
-# Databases
-sqlalchemy
-psycopg2-binary     # PostgreSQL
-pymysql             # MySQL
-pyodbc              # SQL Server
-sqlite3             # included in stdlib, no need to install
-
-# LLM / NLP stack (for TopicExtractor, Reducer, etc.)
+streamlit==1.39.0
+python-dotenv==1.0.1
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+scipy==1.14.1
+tqdm==4.66.5
+requests==2.32.3
+matplotlib==3.9.2
+plotly==5.24.1
+wordcloud==1.9.4
+openpyxl==3.1.5
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.9
+pymysql==1.1.1
 langchain==0.2.14
 langchain-community==0.2.12
 langchain-core==0.2.20
 langchain-groq==0.1.3
 langchain-text-splitters==0.2.2
-sentence-transformers
-huggingface-hub
-faiss-cpu
-pypdf
-
-# Misc
-pillow              # for any image operations
-python-dateutil     # for timestamp parsing (used by pandas internally)
+sentence-transformers==3.2.1
+huggingface-hub==0.25.2
+faiss-cpu==1.8.0
+pypdf==4.3.1
+pillow==10.4.0
+python-dateutil==2.9.0.post0
+pydantic==2.9.2
+typing-extensions==4.12.2
+rich==14.2.0
+markdown-it-py==4.0.0
