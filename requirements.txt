@@ -1,0 +1,43 @@
+# Core web app
+streamlit
+python-dotenv
+
+# Data and computation
+pandas
+numpy
+scikit-learn
+scipy
+tqdm
+requests
+
+# Visualization
+matplotlib
+plotly
+wordcloud
+
+# File handling and formats
+openpyxl        # for Excel support
+xlrd            # for old .xls files
+pyarrow         # optional but speeds up Streamlit dataframes
+
+# Databases
+sqlalchemy
+psycopg2-binary     # PostgreSQL
+pymysql             # MySQL
+pyodbc              # SQL Server
+sqlite3             # included in stdlib, no need to install
+
+# LLM / NLP stack (for TopicExtractor, Reducer, etc.)
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-core==0.2.20
+langchain-groq==0.1.3
+langchain-text-splitters==0.2.2
+sentence-transformers
+huggingface-hub
+faiss-cpu
+pypdf
+
+# Misc
+pillow              # for any image operations
+python-dateutil     # for timestamp parsing (used by pandas internally)
